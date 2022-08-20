@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Movie list</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="app">
+            <h1>Movie Mania</h1>
+            <h6>Movies for Everyone</h6>
+            <div class="search">
+                <input type="text" placeholder="Search Movie.." id="searchinput">                
+            </div>
+        </div>
+        <div class="output"></div>
+        <div class="sub-title">
+            <h2>Movies to Watch</h2>
+        </div>
+        <div class="movie-container">
+            <ul></ul>
+        </div>
+        <div>
+            <input type="checkbox" id="hidemovies">
+            <label for="hide-movies">Hide Movies List</label>
+        </div>
+        <div class="movie-titles">
+            <form>
+                <input type="text" placeholder="add movie" id="movietitle">
+                <button type="submit" id="addbtn"> Add </button>
+            </form>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
